@@ -1,5 +1,7 @@
 <div align="center">
 
+<!-- GitHub profile README for @vimalinx -->
+
 <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:020617,45:0f766e,100:f97316&text=Vimalinx&fontColor=f8fafc&fontSize=72&fontAlignY=38&desc=%E4%B8%83%E5%8F%B6%E6%80%80%E7%91%BE%20%7C%20AI%20Builder%20%7C%20Indie%20Developer&descAlignY=58&animation=fadeIn" alt="Vimalinx profile banner" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=760&lines=Build+small+tools+with+sharp+edges.;把想法做成可以运行的东西。;AI+agents+%2F+creative+apps+%2F+learning+systems)](https://git.io/typing-svg)
