@@ -1,7 +1,7 @@
 <a href="https://github.com/vimalinx/VimalinxOS">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/profile-hero-mobile.svg">
-    <img src="assets/profile-hero.svg" width="100%" alt="Vimalinx / 七叶怀瑾 — Building VimalinxOS. 保留原始照片背景的圆形花朵头像。">
+    <source media="(max-width: 600px)" srcset="assets/profile-hero-mobile.svg?v=original-photo-20260906">
+    <img src="assets/profile-hero.svg?v=original-photo-20260906" width="100%" alt="Vimalinx / 七叶怀瑾 — Building VimalinxOS. 保留原始照片背景的圆形花朵头像。">
   </picture>
 </a>
 
