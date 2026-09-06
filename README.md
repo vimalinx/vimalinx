@@ -14,7 +14,7 @@ I build tools for AI agents and the people working alongside them.
 
 ## 正在构建 · VimalinxOS
 
-### [让 AI 能在自己的电脑上，把事情做完 ↗](https://github.com/vimalinx/VimalinxOS)
+### [让 AI 能在自己的电脑上，把事情做完](https://github.com/vimalinx/VimalinxOS)
 
 一组面向人和 AI Agent 的 Linux 开源基础设施。从模型与 API，到会话、浏览器和桌面应用，再到能持续接班的工作区。组件分别开发和发布，也可以独立使用。
 
