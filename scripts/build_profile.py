@@ -27,11 +27,10 @@ text{{font-family:'Noto Sans',Arial,sans-serif}}
 </svg>'''
 
 
-flower = image_uri('flower-study.webp', 'image/webp')
+flower = image_uri('flower-avatar.png', 'image/png')
 hero_defs = '''
 <radialGradient id="ambient"><stop stop-color="#746391" stop-opacity=".25"/><stop offset="1" stop-color="#111016" stop-opacity="0"/></radialGradient>
-<radialGradient id="photoFade"><stop offset=".68" stop-color="white"/><stop offset="1" stop-color="black"/></radialGradient>
-<mask id="softPhoto"><rect width="520" height="520" fill="url(#photoFade)"/></mask>
+<clipPath id="avatarCircle"><circle cx="260" cy="260" r="208"/></clipPath>
 <linearGradient id="rule"><stop stop-color="#C7B5DE" stop-opacity=".65"/><stop offset="1" stop-color="#C7B5DE" stop-opacity="0"/></linearGradient>
 '''
 hero_styles = '''
@@ -49,7 +48,7 @@ def flower_layer(x, y, scale=1):
 <circle class="motion halo" cx="260" cy="260" r="280" fill="url(#ambient)"/>
 <circle cx="260" cy="260" r="221" fill="none" stroke="#A893BB" stroke-opacity=".15"/>
 <circle class="motion orbit" cx="260" cy="260" r="247" fill="none" stroke="#D6C6E9" stroke-opacity=".38" stroke-width="1" stroke-dasharray="2 18 28 32"/>
-<g class="motion bloom"><image width="520" height="520" href="{flower}" mask="url(#softPhoto)"/></g>
+<g class="motion bloom"><image x="52" y="52" width="416" height="416" preserveAspectRatio="xMidYMid meet" href="{flower}" clip-path="url(#avatarCircle)"/></g>
 <circle cx="477" cy="142" r="3.5" fill="#E3CB87"/>
 <circle cx="44" cy="399" r="2" fill="#C7B5DE"/>
 </g>'''
@@ -77,7 +76,7 @@ mobile_body = f'''
 <rect width="720" height="650" rx="18" fill="#111016"/>
 <text class="mono" x="38" y="42" fill="#BAABC6" font-size="14" letter-spacing="2">PERSONAL LAB / OPEN SOURCE</text>
 <path d="M36 62H684" stroke="#C7B5DE" stroke-opacity=".2"/>
-{flower_layer(232, 127, .93)}
+{flower_layer(254, 233, .54)}
 <text class="serif" x="30" y="170" fill="#F8F2EB" font-size="112" letter-spacing="-5">Vimalinx<tspan fill="#CDB5E5">.</tspan></text>
 <text x="40" y="218" fill="#D4C3E3" font-size="24" letter-spacing="6">七叶怀瑾</text>
 <text x="40" y="539" fill="#F3EBF8" font-size="27">Building VimalinxOS.</text>
